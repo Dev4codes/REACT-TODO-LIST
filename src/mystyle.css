@@ -1,0 +1,83 @@
+.main-cont{
+  background-color: rgb(183, 172, 201);
+  max-width:300px;
+  border: 2px solid rgb(214, 99, 99);
+  border-radius: 5px;
+  padding: 2px;
+  height: auto;
+  width: auto;
+  min-height: 100px;
+  box-shadow: 5px 5px  rgb(155, 151, 151);
+}
+.inputnbutton{
+  display: flex;
+  align-items: center;
+  
+  border-radius: 5px;
+  min-height: 40px;
+  
+  width: auto;
+  
+}
+.inputbox{
+  min-height: 24px;
+  
+  width:80%;
+}
+.plus{
+margin-left: 5px;
+height: 35px;
+  width: 35px;
+  
+  border-radius: 20%;
+  
+  color: red;
+  border-color: aqua;
+ 
+
+}
+.plus:hover{
+  background-color:rgb(53, 219, 53);
+}
+.display{
+  display: flex;
+  margin-top: 3px;
+  align-items: center;
+  border: 2px solid rgb(89, 43, 163);
+  border-radius: 5px;
+  min-height: 40px;
+  
+  width: auto;
+  color: darkorchid;
+}
+.minus:hover{
+background-color: red;
+  
+}
+.minus{
+  margin-right:  15px ;
+  height: 10px;
+  cursor: pointer;
+  border: 2px solid rgb(48, 143, 138) ;
+  
+  font-weight: 900;
+
+
+}
+.rendereddata{
+  display: flex;
+
+}
+.deleteall{
+margin-left: 30%;
+
+
+}
+.deleteall:hover{
+  background-color: red;
+ 
+  border-radius: 20%;
+  
+  color:yellowgreen;
+  
+}

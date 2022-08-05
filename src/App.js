@@ -48,6 +48,7 @@ export default function App() {
   return (
     <>
       <div className="main-cont">
+      <div className="heading"> <div className="headingtxt"> Digi-Note</div> </div>
         <div className="inputnbutton">
           <input
             type="text"
@@ -61,6 +62,7 @@ export default function App() {
         </div>
 
         <div className="display">
+         
           <div className="data">
             {list.map((itemlist, ind) => {
               return (

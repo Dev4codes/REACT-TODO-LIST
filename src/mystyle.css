@@ -45,12 +45,12 @@ height: 35px;
   display: flex;
   margin-top: 3px;
   align-items: center;
-  border: 2px solid rgb(89, 43, 163);
+  border: 2px solid rgba(27, 113, 184, 0.836);
   border-radius: 5px;
-  min-height: 40px;
+  min-height: 40px; 
   
   width: auto;
-  color: darkorchid;
+ 
 }
 .minus:hover{
 background-color: red;
@@ -76,17 +76,18 @@ background-color: red;
   flex-wrap: wrap;
 
   border-radius: 20px;
-  
-
+  margin: 7px;
+  background-color:rgb(30, 180, 135);
 
 }
 .rendereddata:hover{
-  background-color:rgb(45, 45, 196);
+  background-color:rgb(35, 105, 45);
+  
 }
 .rendereditem{
   
   max-width: 98%;
-  
+  color: white;
   
   
   -ms-wrap-flow: clear;

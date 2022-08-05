@@ -43,6 +43,7 @@ export default function App() {
 
   const delall = () => {
     setList([]);
+    setInput("");
   };
 
   return (
@@ -52,7 +53,7 @@ export default function App() {
         <div className="inputnbutton">
           <input
             type="text"
-            className="inputbox"
+            className="inputbox" placeholder="Add your Notes Here"
             value={input}
             onChange={text}
           />
@@ -68,7 +69,7 @@ export default function App() {
               return (
                 <>
                   <div className="rendereddata">
-                               <div className="minus" onClick={() => deleteitem(ind)}> </div>
+                               <button className="minus" onClick={() => deleteitem(ind)}>Delete </button>
                              
                                
                     <div className="rendereditem">{itemlist}</div>

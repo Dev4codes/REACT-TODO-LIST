@@ -65,18 +65,21 @@ height: 35px;
 }
 .minus:hover{
 background-color: red;
+color: white;
   
 }
 .minus{
-  border-radius: 40%;
+  width: auto;
+  border-radius: 20%;
   align-self:center;
   margin-right:  15px ;
-  height: 3px;
+  
   cursor: pointer;
   border: 2px solid rgb(240, 175, 55) ;
   background-color: rgb(240, 175, 55) ;
-  font-weight: 900;
-  width: 20px;
+  font-size: x-small;
+ 
+  
 
 
 }
@@ -111,7 +114,7 @@ margin-left: 30%;
 .deleteall:hover{
   background-color: red;
  
-  border-radius: 20%;
+ border-color: red;
   
   color:yellowgreen;
 
@@ -135,6 +138,7 @@ margin-left: 30%;
   border-color: yellowgreen;
 }
 .edit:hover{
+  color: rgb(41, 43, 212);
   background-color: yellowgreen;
   border-radius: 40%;
   border-color: yellowgreen;
